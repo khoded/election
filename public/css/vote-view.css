@@ -1,0 +1,156 @@
+h3{
+    float: right;
+    position: relative;
+    left: -30px;
+    border-bottom: 3px solid #ff3860;
+    padding-bottom: 6px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+ul.nav-ting a{
+    text-decoration: none;
+    color: black;
+}
+
+[v-cloak]{
+    display: none;
+}
+
+.card{
+    position: relative;
+    left: -40px;
+    top: -16px;
+}
+.card-content{
+    text-align: center;
+    height: 100px;
+}
+
+.card-footer-item{
+    height: 65px;
+    text-align: center;
+}
+
+.prev{
+    float: left;
+    position: relative;
+    left: 150px;
+    width: 100px;
+    padding: 20px; 
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.done{
+    width: 340px;
+    position: relative;
+    left: 390px;
+    padding: 20px;
+    margin-top: -30px;
+    cursor: pointer;
+    
+}
+
+.next{
+    float: right;
+    position: relative;
+    left: -40px;
+    width: 100px;
+    padding: 20px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+h1{
+    font-family: Helveticaneue;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+    left: 300px;
+    color: black;
+    border-bottom: 4px solid #ff3860;
+    width: 750px;
+    margin-bottom: 50px;
+}
+
+.vote{
+    border: 1px solid white;
+    border-top: 1px solid #dbdbdb;
+    border-radius: 0px;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: none;
+}
+
+.vote:hover{
+    border: none;
+    border-top: 1px solid #dbdbdb; 
+    cursor: pointer;
+}
+
+.vote:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.voteIcon{
+    font-size: 24px;
+    color: grey;
+}
+
+.voteIcon:hover{
+    color: #ff3860;
+    transition: 0.7s ease-in-out;
+}
+
+.voteIcon:focus{
+    color: #ff3860;
+    transition: 0.7s ease-in-out;
+}
+
+.votedIcon{
+    font-size: 24px;
+    color: #ff3860;
+}
+
+.noSenators{
+    position: relative;
+    top: 30px;
+}
+
+.skip{
+    color: black;
+    font-size: 50px;
+    position: relative;
+    left: 280px;
+    top: 200px;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.skipped{
+    color: #f25475;
+    font-size: 50px;
+    position: relative;
+    left: 280px;
+    top: 200px;
+    border-bottom: 3px solid #f25475;
+}
+
+.presidents{
+    position: relative;
+    left: -105px;
+}
+
+.presidents .card-content{
+    text-align: center;
+}
+
+.column.is-2, .column.is-2-tablet {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 23.86667%;
+}
